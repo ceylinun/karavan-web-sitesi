@@ -1,0 +1,275 @@
+@media screen and (max-width: 650px) {
+  #fiyat-1 {
+    position: absolute;
+    width: 28%;
+    height: 300px;
+    top: 50px;
+    border: 2px solid #f8f9fa;
+    border-radius: 20px;
+    left: 16%;
+    width: 450px;
+    height: 300px;
+    transition: background-color 0.3s ease;
+  }
+  .header-yazı {
+    letter-spacing: 2px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    padding-left: 8px;
+    padding-top: 65px;
+    color: gray;
+    font-size: 18px;
+  }
+  .header-image {
+    width: 150px;
+    height: 140px;
+    position: absolute;
+    left: 40%;
+  }
+  #main-image {
+    width: 100%;
+    height: 500px;
+    background-image: url(resimler/bayaiyi.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .header-yazı {
+    font-size: 20px;
+  }
+  .p-çekme {
+    color: black;
+    font-style: italic;
+    text-indent: 15px;
+    font-size: 12px;
+  }
+  .h-çekme {
+    padding-left: 35%;
+    letter-spacing: 2px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    color: gray;
+    text-decoration: underline;
+    font-size: 15px;
+  }
+  .son {
+    font-size: 15px;
+    color: black;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    text-shadow: 1px 1px gray;
+  }
+  .imgclass {
+    width: 80%;
+    height: 700px;
+
+    border-radius: 20px;
+  }
+  .box {
+    width: 40%;
+    height: 300px;
+    transition: 0.5s;
+    border-radius: 15px;
+  }
+  #model {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f8f9fa;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+  }
+  #fiyat {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background-image: url(resimler/teklif2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+  }
+  #beş {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+  }
+  
+  .social-media ul {
+    list-style-type: none;
+    gap: 1rem;
+  }
+  
+  .footer-map {
+    width: 100%;
+    height: 100%;
+    padding: 0 30px;
+    margin-top: 30px;
+  }
+  
+  .footer-title {
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+
+  .fa-brands,
+  .fa-solid {
+  font-size: 14px;
+}
+  
+  .footer-title h2 {
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    color: gray;
+    letter-spacing: 2px;
+  }
+  #main-fiyat {
+    height: 200vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #main-img {
+    width: 100%;
+  }
+
+  #main-form {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 480px) {
+  #fiyat-1 {
+    position: absolute;
+    width: 28%;
+    height: 300px;
+    top: 50px;
+    border: 2px solid #f8f9fa;
+    border-radius: 20px;
+    left: 8%;
+    width: 400px;
+    height: 300px;
+    transition: background-color 0.3s ease;
+  }
+  .header-yazı {
+    letter-spacing: 2px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    padding-left: 2px;
+    padding-top: 65px;
+    color: gray;
+    font-size: 15px;
+  }
+  .header-image {
+    width: 130px;
+    height: 120px;
+    position: absolute;
+    left: 40%;
+    margin-top: 10px;
+  }
+  #main-image {
+    width: 100%;
+    height: 400px;
+    background-image: url(resimler/bayaiyi.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  #header {
+    width: auto;
+    height: 140px;
+  }
+  .p-çekme {
+    color: black;
+    font-style: italic;
+    text-indent: 15px;
+    font-size: 10px;
+  }
+  .h-çekme {
+    padding-left: 35%;
+    letter-spacing: 2px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    color: gray;
+    text-decoration: underline;
+    font-size: 12px;
+  }
+  .son {
+    font-size: 12px;
+    color: black;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    text-shadow: 1px 1px gray;
+  }
+  .fisun {
+    width: 90%;
+    height: 85%;
+    border-radius: 20px;
+  }
+
+  .social-media {
+    margin-top: 50px;
+  }
+  .social-media ul {
+    flex-direction: column;
+    list-style-type: none;
+    gap: 40px;
+  }
+  
+  .footer-map {
+    width: 100%;
+    height: 100%;
+    padding: 0 20px;
+    margin-top: 20px;
+  }
+  
+  .footer-title {
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+
+  .fa-brands,
+  .fa-solid {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+  
+  .footer-title h2 {
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    color: gray;
+    letter-spacing: 2px;
+  }
+
+  #y-iki,
+  #y-üç,
+  #y-dört,
+  #y-beş {
+    padding-left: 10px;
+  }
+
+  #main-form input {
+    width: 90%;
+  }
+
+  #main-üç,
+  #main-dört,
+  #main-beş,
+  #main-iki {
+    display: flex;
+    align-items: center;
+  }
+
+}
